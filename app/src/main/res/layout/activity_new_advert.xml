@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewAdvertActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="128dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="264dp"
+        android:text="Date:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemDescription" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="128dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="264dp"
+        android:text="Location:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemDate" />
+
+    <EditText
+        android:id="@+id/itemLocation"
+        android:layout_width="376dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <EditText
+        android:id="@+id/itemName"
+        android:layout_width="371dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="10"
+        android:selectAllOnFocus="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/itemDescription"
+        android:layout_width="383dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/itemPhone"
+        android:layout_width="376dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="18dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/itemSave"
+        android:layout_width="358dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#AFAAAA"
+        android:text="SAVE"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemLocation" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="121dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="274dp"
+        android:text="Name:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="116dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="276dp"
+        android:text="Post Type:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="128dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="264dp"
+        android:text="Phone:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="196dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="199dp"
+        android:text="Description:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemPhone" />
+
+    <EditText
+        android:id="@+id/itemDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="182dp"
+        android:ems="10"
+        android:hint="dd/mm/yyyy"
+        android:inputType="date"
+        android:isScrollContainer="false"
+        android:maxLength="10"
+        android:numeric="integer"
+        android:selectAllOnFocus="true"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <RadioGroup
+        android:id="@+id/lostFoundGroup"
+        android:layout_width="221dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/Lost"
+            android:layout_width="89dp"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:text="Lost"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/Found"
+            android:layout_width="118dp"
+            android:layout_height="63dp"
+            android:text="Found"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
