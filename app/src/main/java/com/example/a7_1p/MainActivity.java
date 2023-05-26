@@ -13,7 +13,7 @@ import android.widget.Toast;
 import com.example.a7_1p.data.DatabaseHelper;
 
 public class MainActivity extends AppCompatActivity {
-        DatabaseHelper db;
+    DatabaseHelper db;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

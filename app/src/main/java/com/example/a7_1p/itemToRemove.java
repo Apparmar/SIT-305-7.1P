@@ -21,7 +21,6 @@ public class itemToRemove extends AppCompatActivity {
         TextView itemToRemove = findViewById(R.id.dItemRemove);
         Button removeButton = findViewById(R.id.dRemoveButton);
 
-
         Intent intent = getIntent();
         Bundle extras = intent.getExtras();
 

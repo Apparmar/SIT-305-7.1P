@@ -11,12 +11,13 @@
         android:layout_width="128dp"
         android:layout_height="36dp"
         android:layout_marginStart="19dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="9dp"
         android:layout_marginEnd="264dp"
         android:text="Date:"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/itemDescription" />
 
@@ -25,29 +26,15 @@
         android:layout_width="128dp"
         android:layout_height="36dp"
         android:layout_marginStart="19dp"
-        android:layout_marginTop="19dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="264dp"
         android:text="Location:"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/itemDate" />
-
-    <EditText
-        android:id="@+id/itemLocation"
-        android:layout_width="376dp"
-        android:layout_height="54dp"
-        android:layout_marginStart="19dp"
-        android:layout_marginEnd="16dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:selectAllOnFocus="true"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
         android:id="@+id/itemName"
@@ -66,11 +53,27 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
+        android:id="@+id/itemLocation"
+        android:layout_width="371dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <EditText
         android:id="@+id/itemDescription"
         android:layout_width="383dp"
         android:layout_height="84dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="12dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -78,6 +81,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -98,10 +102,9 @@
 
     <Button
         android:id="@+id/itemSave"
-        android:layout_width="358dp"
-        android:layout_height="75dp"
+        android:layout_width="339dp"
+        android:layout_height="56dp"
         android:layout_marginStart="26dp"
-        android:layout_marginTop="14dp"
         android:layout_marginEnd="27dp"
         android:layout_marginBottom="24dp"
         android:backgroundTint="#AFAAAA"
@@ -112,6 +115,23 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/getCurLocation" />
+
+    <Button
+        android:id="@+id/getCurLocation"
+        android:layout_width="339dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="27dp"
+        android:backgroundTint="#AFAAAA"
+        android:text="GET CURRENT LOCATION"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/itemLocation" />
 
     <TextView
@@ -119,12 +139,13 @@
         android:layout_width="121dp"
         android:layout_height="33dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="17dp"
         android:layout_marginEnd="274dp"
         android:text="Name:"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -133,12 +154,13 @@
         android:layout_width="116dp"
         android:layout_height="38dp"
         android:layout_marginStart="19dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="276dp"
         android:text="Post Type:"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -147,12 +169,13 @@
         android:layout_width="128dp"
         android:layout_height="36dp"
         android:layout_marginStart="19dp"
-        android:layout_marginTop="19dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="264dp"
         android:text="Phone:"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/itemName" />
 

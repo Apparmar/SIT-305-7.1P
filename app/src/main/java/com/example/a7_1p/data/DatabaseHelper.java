@@ -118,7 +118,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             item.setLost(Integer.parseInt(cursor.getString(cursor.getColumnIndex(Util.ITEM_LOST))));
             item.setName(cursor.getString(cursor.getColumnIndex(Util.ITEM_NAME)));
             item.setPhone(Integer.parseInt(cursor.getString(cursor.getColumnIndex(Util.ITEM_PHONE))));
-
             myList.add(item);
             cursor.moveToNext();
         }
